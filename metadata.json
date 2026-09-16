@@ -1,0 +1,6 @@
+{
+  "name": "Financial Transaction Dashboard",
+  "description": "Dark-themed financial dashboard with purple accents displaying transaction KPIs, monthly income vs expenses, category breakdowns, and recent transactions.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
