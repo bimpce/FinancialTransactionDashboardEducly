@@ -69,23 +69,6 @@ export const LoginPage: React.FC = () => {
           </p>
         </div>
 
-        {/* Configuration Notice if Supabase environment variables are missing */}
-/*
-        {!isConfigured && (
-          <div className="mb-6 p-3.5 rounded-xl bg-purple-950/40 border border-purple-800/50 text-xs text-purple-200 flex items-start gap-2.5">
-            <Info className="w-4 h-4 text-purple-400 flex-shrink-0 mt-0.5" />
-            <div className="flex-1 space-y-1">
-              <span className="font-semibold block text-white">Supabase Auth Setup</span>
-              <p className="text-zinc-300 text-[11px] leading-relaxed">
-                To connect your live Supabase project, provide <span className="font-mono text-purple-300">VITE_SUPABASE_URL</span> and <span className="font-mono text-purple-300">VITE_SUPABASE_ANON_KEY</span> in Settings.
-              </p>
-              <p className="text-zinc-400 text-[11px]">
-                * Preview mode is enabled: you can enter any test email & password to sign in and explore the dashboard immediately.
-              </p>
-            </div>
-          </div>
-        )}
-*/
         {/* Login Box */}
         <div className="rounded-2xl bg-zinc-900/90 border border-purple-900/40 shadow-2xl p-6 sm:p-8 backdrop-blur-xl">
           <div className="flex items-center justify-between pb-4 mb-5 border-b border-zinc-800/80">
