@@ -70,6 +70,7 @@ export const LoginPage: React.FC = () => {
         </div>
 
         {/* Configuration Notice if Supabase environment variables are missing */}
+/*
         {!isConfigured && (
           <div className="mb-6 p-3.5 rounded-xl bg-purple-950/40 border border-purple-800/50 text-xs text-purple-200 flex items-start gap-2.5">
             <Info className="w-4 h-4 text-purple-400 flex-shrink-0 mt-0.5" />
@@ -84,7 +85,7 @@ export const LoginPage: React.FC = () => {
             </div>
           </div>
         )}
-
+*/
         {/* Login Box */}
         <div className="rounded-2xl bg-zinc-900/90 border border-purple-900/40 shadow-2xl p-6 sm:p-8 backdrop-blur-xl">
           <div className="flex items-center justify-between pb-4 mb-5 border-b border-zinc-800/80">
